@@ -10,6 +10,9 @@ nav { background-color: rgba(0, 150, 0, 1); }
 .content-left { padding: 25px 0px 0px 25px; display: inline-block; width: 50vw; }
 .content-right { display: inline-block; width: calc(50vw - 50px); }
 
+.page-title { padding-left: 20px; }
+
+
 .circle { height: 200px; width: 200px; padding: 10px; border-radius: 50%; background-color: #faebd7; }
 .circle-top { height: 400px; width: 400px; }
 .container-trippel { max-width: 220px; display: inline-block; margin:25px}
@@ -25,7 +28,11 @@ nav { background-color: rgba(0, 150, 0, 1); }
 
 @media screen and (max-width: 850px) 
 {
+    .circle-top { height: 200px; width: 200px; }
+    .circle { height: 100px; width: 100px; }
     .content-top { display: block; }
+    .content-left { width: auto; padding: 25px 0px 0px 0px; }
+    .content-right { width: auto; display: block; }
 }
 
 .function-description { }

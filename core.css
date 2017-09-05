@@ -5,7 +5,7 @@ nav { background-color: rgba(0, 150, 0, 1); }
 .nav-logo { height: 30px; width: 30px; padding:10px; }
 .nav-logo-text { height:30px; padding-top: 10px; padding-bottom: 10px; }
 
-.content-top { background-color:snow; display: inline-flex; min-height: 300px; }
+.content-top { display: inline-flex; min-height: 300px; }
 
 .content-left { padding: 25px 0px 0px 25px; display: inline-block; width: 50vw; }
 .content-right { display: inline-block; width: calc(50vw - 50px); }
@@ -16,3 +16,8 @@ nav { background-color: rgba(0, 150, 0, 1); }
 .p-trippel {text-align: center; color: white; }
 
 .desc-img { max-width: 100vw; max-height: 100vh; }
+
+@media screen and (min-width: 600px) and (orientation: vertical)
+{
+
+}
